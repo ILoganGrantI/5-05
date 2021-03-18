@@ -1,0 +1,14 @@
+ #answer {
+    background: rgb(187, 187, 187);
+    border: 5px solid black;
+		float: right;
+		padding: 2px;
+ }
+
+ #input {
+  float: right;
+ }
+
+  #calculate {
+  float: right;
+ }
