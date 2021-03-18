@@ -1,10 +1,18 @@
+// This sets the deafault values, it also makes them variables.
 let number = 0
+let number2 = 0
+// This makes the button display the answer.
+document.getElementById('button').addEventListener('click', multiplication)
 
-document.getElementById('calculate').addEventListener('click', addition)
-
-function addition () {
+function multiplication () {
+// This takes what was writen into the text boxes and sets the values of the variables.
+	number2 = document.getElementById('input2').value
   number = document.getElementById('input').value
+// This makes the code recognize what was typed in as numbers rather than a sentence.
+	number2 = parseInt(number2)
 	number = parseInt(number)
-  number = number + 1
-  document.getElementById('answer').innerHTML = number
+// This then multiplies the first variable with the second.
+  answer = number * number2
+// after this displays the sum.
+  document.getElementById('answer').innerHTML = answer
 }
