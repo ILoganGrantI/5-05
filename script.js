@@ -1,7 +1,7 @@
 // This sets the deafault values, it also makes them variables.
 let number = 0
 let number2 = 0
-let ansewr = 0
+let answer = 0
 // This makes the button display the answer.
 document.getElementById('button').addEventListener('click', multiplication)
 
